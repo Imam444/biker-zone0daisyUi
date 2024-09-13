@@ -36,7 +36,7 @@
 <body class="font-poppins">
     <header class="md:container md:max-auto">
        <nav>
-            <div class="navbar bg-base-100">
+            <div class="navbar e-100">
                 <div class="flex-1">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -55,7 +55,7 @@
                     </div>
                     <ul
                       tabindex="0"
-                      class="menu menu-sm dropdown-content  bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 text-base shadow">
+                      class="menu menu-sm dropdown-content  e-100 rounded-box z-[1] mt-3 w-52 p-2 text-base shadow">
                       <li><a>Home</a></li>
                       <li><a>Shop</a></li>
                       <li>News</a></li>
@@ -191,7 +191,7 @@
         <h3 class="text-5xl mb-12 font-semibold text-center">Latest Bike</h3>
         <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <!-- first card -->
-          <div class="card bg-base-100 shadow-xl">
+          <div class="card e-100 shadow-xl">
             <figure>
               <img
                 src="/images/others/latest1.png"
@@ -206,7 +206,7 @@
             </div>
           </div>
           <!-- second card -->
-          <div class="card bg-base-100  shadow-xl">
+          <div class="card e-100  shadow-xl">
             <figure>
               <img
                 src="/images/others/latest2.png"
@@ -221,7 +221,7 @@
             </div>
           </div>
           <!-- third card -->
-          <div class="card bg-base-100  shadow-xl">
+          <div class="card e-100  shadow-xl">
             <figure>
               <img
                 src="/images/others/latest3.png"
@@ -237,13 +237,12 @@
           </div>
         </div>
       </section>
-    </main>
-    <!-- happy client -->
+      <!-- happy client -->
      <section class="my-24">
       <h3 class="text-5xl mb-12 font-semibold text-center">Happy <span class="text-bike-primary">Client say</span></h3>
       <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <!-- first review -->
-        <div class="card card-compact bg-base-100 p-9  border border-gray-400">
+        <div class="card card-compact e-100 p-9  border border-gray-400">
           <figure>
             <img class="w-36"
               src="/images/others/user-1.png"
@@ -265,7 +264,7 @@
           </div>
         </div>
         <!-- second review -->
-        <div class="card card-compact bg-base-100 p-9  border border-gray-400">
+        <div class="card card-compact e-100 p-9  border border-gray-400">
           <figure>
             <img class="w-36"
               src="/images/others/user-2.png">
@@ -286,7 +285,7 @@
           </div>
         </div>
         <!-- third review -->
-        <div class="card card-compact bg-base-100 p-9  border border-gray-400">
+        <div class="card card-compact e-100 p-9  border border-gray-400">
           <figure>
             <img class="w-36"
               src="/images/others/user-3.png">
@@ -308,8 +307,61 @@
         </div>
       </div>
      </section>
-    <footer>
-
+     <!-- Frequency asked question -->
+      <section class="my-24">
+        <h3 class="text-5xl mb-12 font-semibold text-center">Frequency Asked <span class="text-bike-primary">Question</span></h3>
+        <div class="hero e-200 ">
+          <div class="hero-content flex-col lg:gap-24 lg:flex-row">
+            <img
+              src="/images/others/faq.png"
+              class="w-1/2 lg:max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+    <footer class="footer bg-neutral text-neutral-content p-10">
+      
+        <p>
+          ACME Industries Ltd.
+          <br />
+          Providing reliable tech since 1992
+        </p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Social</h6>
+        <div class="grid grid-col-1 gap-4">
+          <a>
+            <img class="w-36" src="images/others/android.png" alt="">
+          </a>
+          <a>
+            <img class="w-36" src="images/others/ios.png" alt="">
+          </a>
+          
+        </div>
+      </nav>
     </footer>
 </body>
 </html>y-end
